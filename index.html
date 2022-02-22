@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap local css  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- bootstrap js file  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav start -->
+    <header id="bottom_h" class="shadow-sm fixed-top">
+        <nav class="align-items-center navbar">
+            <div class="logo">
+                <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i>khaw</a>
+            </div>
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="nav-toggler ms-auto">
+                <i class="fas fa-bars open"></i>
+                <i class="fas fa-times close"></i>
+            </label>
+            <ul class="menu ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#bottom_h">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#popularfood">Popular</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#foodMenu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#orderForm">order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">blogs</a>
+                </li>
+            </ul>
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- nav end -->
+    <!-- hero start  -->
+    <section id="hero" class="pt-5">
+        <div class="row pt-5 align-items-center">
+            <div class="col-md-6 py-5 hero_img_box">
+                <img class="hero_main_img" src="./img/home-img.png" alt="">
+                <img class="hero_up_img" src="./img/home-parallax-img.png" alt="">
+            </div>
+            <div class="col-md-6 order-md-first py-md-5">
+                <p class="hero-p">Welcome Foodies</p>
+                <h3 class="main-heading">
+                    Different Spices For The Different Tastes&nbsp;<span class="main-heading hero_emoji">😋</span> 
+                </h3>
+                <p class="text-muted fs-6">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores
+                    Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
+                <a class="btn" href="#">oreder now</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- hero end -->
+    <!-- catagory start  -->
+    <section id="category" class="">
+        <div class="row ">
+            <!-- box item  -->
+            <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                <div class="box py-4 px-2">
+                    <img src="/img/cat-1.png" alt="">
+                    <h4 class="my-2">combo</h4>
+                </div>
+            </div>
+            <!-- box item  -->
+            <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                <div class="box py-4 px-2">
+                    <img src="/img/cat-2.png" alt="">
+                    <h4 class="my-2">pizza</h4>
+                </div>
+            </div>
+            <!-- box item  -->
+            <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                <div class="box py-4 px-2">
+                    <img src="/img/cat-3.png" alt="">
+                    <h4 class="my-2">burger</h4>
+                </div>
+            </div>
+            <!-- box item  -->
+            <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                <div class="box py-4 px-2">
+                    <img src="/img/cat-4.png" alt="">
+                    <h4 class="my-2">chicken</h4>
+                </div>
+            </div>
+            <!-- box item  -->
+            <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                <div class="box py-4 px-2">
+                    <img src="/img/cat-5.png" alt="">
+                    <h4 class="my-2">dinner</h4>
+                </div>
+            </div>
+            <!-- box item  -->
+            <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                <div class="box py-4 px-2">
+                    <img src="/img/cat-6.png" alt="">
+                    <h4 class="my-2">coffe</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- category end -->
+    <!-- about section start -->
+    <section id="about">
+        <div class="row py-4">
+            <div class="col-md-6 img align-self-center">
+                <img src="./img/about-img.png" alt="">
+            </div>
+            <div class="col-md-6 text">
+                <h4 class="titel">Why Choose Us?</h4>
+                <h3 class="titel-2">What's Make Our Food Delicious!</h3>
+                <p class="text-muted fs-6">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eos Ut Explicabo,
+                    Numquam Iusto Est A Ipsum Assumenda Tempore Esse Corporis?</p>
+                <a href="#" class="btn">read more</a>
+                <div class="row icon">
+                    <div class="col-sm-6">
+                        <div class="content d-flex bg-white shadow-sm rounded">
+                            <img src="./img/serv-1.png" alt="">
+                            <h3>Fast Delivery</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6  ">
+                        <div class="content d-flex bg-white shadow-sm rounded">
+                            <img src="./img/serv-2.png" alt="">
+                            <h3>Fresh Food</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="content d-flex bg-white shadow-sm rounded">
+                            <img src="./img/serv-3.png" alt="">
+                            <h3>Best Quality</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="content d-flex bg-white shadow-sm rounded">
+                            <img src="./img/serv-4.png" alt="">
+                            <h3>24/7 Support</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+    <!-- Popular Food secton start -->
+    <section id="popularfood">
+        <div class="row py-4">
+            <div class="col-12 text-center">
+                <h4 class="titel">Popular Food</h4>
+                <h3 class="titel-2 mb-5">Our Special Dishes</h3>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-1.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-2.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-3.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-4.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-5.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-6.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-7.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- cart start  -->
+            <div class="col-xxl-3  col-md-4 col-sm-6">
+                <div class="card text-center p-4">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <img src="./img/food-8.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40.00 <span class="text-muted fs-6 text-decoration-line-through">$50.00</span></h4>
+                    <div class="button">
+                        <a href="#" class="btn-2 my-4">add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Popular Food secton end -->
+
+    <!-- banne section start -->
+    <section id="banner">
+        <div class="banner d-flex flex-column justify-content-center ps-5">
+            <h4 class="titel">Double Cheese</h4>
+            <h3 class="titel-2 text-danger">BURGER</h3>
+            <p class="fs-4">With Cococola And Fries</p>
+            <div class="button">
+                <a href="#" class="btn-2"> order now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- banne section end -->
+    <!-- column banner section -->
+    <section id="coloumn-banner">
+        <div class="row">
+
+            <!-- row banner start  -->
+            <div class="col-md-4 position-relative  border-2">
+                <div class="box box-wraper">
+                    <img class="pt-5" src="./img/banner-1.png" alt="">
+                    <div class="box-child position-absolute top-0 start-0 text-white ps-4 pt-4">
+                        <h4>Special Offer</h4>
+                        <h3>Upto 50% Off</h3>
+                        <div class="button">
+                            <a href="#" class="btn-2">order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- row banner start  -->
+            <div class="col-md-4 position-relative  border-2">
+                <div class="box2 box-wraper">
+                    <img class="pt-5" src="./img/banner-2.png" alt="">
+                    <div class="box-child position-absolute top-0 start-0 text-dark ps-4 pt-4 w-100 text-center">
+                        <h4>Special Offer</h4>
+                        <h3>Upto 50% Off</h3>
+                        <div class="button">
+                            <a href="#" class="btn-2">order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- row banner start  -->
+            <div class="col-md-4 position-relative  border-2">
+                <div class="box3 box-wraper">
+                    <img class="pt-5" src="./img/banner-3.png" alt="">
+                    <div class="box-child position-absolute top-0 start-0 text-white ps-4 pt-4">
+                        <h4>Special Offer</h4>
+                        <h3>Upto 50% Off</h3>
+                        <div class="button">
+                            <a href="#" class="btn-2">order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- column banner section -->
+    <!-- food menu item  -->
+    <section id="foodMenu">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h4 class="titel">Our Menu</h4>
+                <h3 class="titel-2">Our Top Dishes </h3>
+            </div>
+            <!-- menu start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="box shadow-sm d-flex align-items-center p-3">
+                    <img src="./img/menu-1.png" alt="">
+                    <div class="price ms-3">
+                        <h4>delicious food</h4>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- menu start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="box shadow-sm d-flex align-items-center p-3">
+                    <img src="./img/menu-2.png" alt="">
+                    <div class="price ms-3">
+                        <h4>delicious food</h4>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- menu start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="box shadow-sm d-flex align-items-center p-3">
+                    <img src="./img/menu-3.png" alt="">
+                    <div class="price ms-3">
+                        <h4>delicious food</h4>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- menu start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="box shadow-sm d-flex align-items-center p-3">
+                    <img src="./img/menu-4.png" alt="">
+                    <div class="price ms-3">
+                        <h4>delicious food</h4>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- menu start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="box shadow-sm d-flex align-items-center p-3">
+                    <img src="./img/menu-5.png" alt="">
+                    <div class="price ms-3">
+                        <h4>delicious food</h4>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- menu start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="box shadow-sm d-flex align-items-center p-3">
+                    <img src="./img/menu-6.png" alt="">
+                    <div class="price ms-3">
+                        <h4>delicious food</h4>
+                        <p>$40.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- food menu item end -->
+    <!-- contact ifo start -->
+    <section id="contactInfo">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h4 class="titel">Order Now</h4>
+                <h3 class="titel-2">Fastest Home Delivery</h3>
+            </div>
+            <!-- contact info box  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="cinfo_box text-center">
+                    <img src="./img/icon-1.png" alt="">
+                    <h4>7:00am To 10:30pm</h4>
+                </div>
+            </div>
+            <!-- contact info box  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="cinfo_box text-center">
+                    <img src="./img/icon-2.png" alt="">
+                    <h4>+880-1763-976354</h4>
+                </div>
+            </div>
+            <!-- contact info box  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="cinfo_box text-center">
+                    <img src="./img/icon-3.png" alt="">
+                    <h4>Barishal,Bamna-8730</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact ifo end -->
+    <!-- order form form start -->
+    <section id="orderForm">
+        <form action="">
+            <div class="row bg-light">
+                <!-- name  -->
+                <div class="col-md-6">
+                    <div class="input_box">
+                        <p class="fs-6">Your Name</p>
+                        <input type="text" placeholder="Customar's Name">
+                    </div>
+                </div>
+                <!-- number -->
+                <div class="col-md-6">
+                    <div class="input_box">
+                        <p class="fs-6">Your number</p>
+                        <input type="number" placeholder="Customar's number">
+                    </div>
+                </div>
+                <!-- Your Order -->
+                <div class="col-md-6">
+                    <div class="input_box">
+                        <p class="fs-6">Food name</p>
+                        <input type="text" placeholder="Food you want">
+                    </div>
+                </div>
+                <!-- how much -->
+                <div class="col-md-6">
+                    <div class="input_box">
+                        <p class="fs-6">How Much</p>
+                        <input type="number" placeholder="Number of orders">
+                    </div>
+                </div>
+                <!-- Your details -->
+                <div class="col-md-6">
+                    <div class="input_box">
+                        <p class="fs-6">Food name</p>
+                        <input type="text" placeholder="Your massages">
+                    </div>
+                </div>
+                <!-- picup time-->
+                <div class="col-md-6">
+                    <div class="input_box">
+                        <p class="fs-6">Food name</p>
+                        <input type="datetime-local" placeholder="Food you want">
+                    </div>
+                </div>
+                <!-- text area-->
+                <div class="col-md-6 mt-2">
+                    <div class="input_box">
+                        <textarea name="" id="" cols="30" rows="10" class="" placeholder="Your address"></textarea>
+                    </div>
+                </div>
+                <!--map area-->
+                <div class="col-md-6 mt-2">
+                    <div class="input_box">
+                        <iframe class="map" aria-hidden="true" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12457.591470727302!2d90.08454317993717!3d22.31061201508987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30aaa39374e27c7d%3A0x66fceafe19677b18!2sBamna!5e1!3m2!1sen!2sbd!4v1645177029969!5m2!1sen!2sbd" style="border:0;" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <input class="btn-2" type="submit" value="proceed to order">
+            </div>
+        </form>
+    </section>
+    <!-- contact form end -->
+    <!-- blog section start -->
+    <section id="blog">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h3 class="titel">Our Blogs</h3>
+                <h4 class="titel-2">Our Daily Stories</h4>
+            </div>
+            <!-- blog_box start  -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog_wraper">
+                    <h3 class="bg-white calendar"> <i class="fas fa-calendar"></i> 21st may, 2021 </h3>
+                    <div class="img_box overflow-hidden">
+                        <img src="./img/blog-1.jpg" alt="">
+                    </div>
+                    <div class="blog_box">
+                        <div class="tag my-2">
+                            <a href="#"><i class="fas fa-tag me-1"></i>food /</a>
+                            <a href="#"><i class="fas fa-tag me-1"></i>pizza /</a>
+                            <a href="#"><i class="fas fa-tag me-1"></i>burger /</a>
+                        </div>
+                        <h3 class="fs-6 fw-bold">Blog Title Goes Here...</h3>
+                        <p class="text-muted fw-light fs-6">Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
+                        <button>
+                            <a href="#" class="btn-2">read more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+             <!-- blog_box start  -->
+             <div class="col-lg-4 col-md-6">
+                <div class="blog_wraper">
+                    <h3 class="bg-white calendar"> <i class="fas fa-calendar"></i> 21st may, 2021 </h3>
+                    <div class="img_box overflow-hidden">
+                        <img src="./img/blog-2.jpg" alt="">
+                    </div>
+                    <div class="blog_box">
+                        <div class="tag my-2">
+                            <a href="#"><i class="fas fa-tag me-1"></i>food /</a>
+                            <a href="#"><i class="fas fa-tag me-1"></i>pizza /</a>
+                            <a href="#"><i class="fas fa-tag me-1"></i>burger /</a>
+                        </div>
+                        <h3 class="fs-6 fw-bold">Blog Title Goes Here...</h3>
+                        <p class="text-muted fw-light fs-6">Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
+                        <button>
+                            <a href="#" class="btn-2">read more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+             <!-- blog_box start  -->
+             <div class="col-lg-4 col-md-6">
+                <div class="blog_wraper">
+                    <h3 class="bg-white calendar"> <i class="fas fa-calendar"></i> 21st may, 2021 </h3>
+                    <div class="img_box overflow-hidden">
+                        <img src="./img/blog-3.jpg" alt="">
+                    </div>
+                    <div class="blog_box">
+                        <div class="tag my-2">
+                            <a href="#"><i class="fas fa-tag me-1"></i>food /</a>
+                            <a href="#"><i class="fas fa-tag me-1"></i>pizza /</a>
+                            <a href="#"><i class="fas fa-tag me-1"></i>burger /</a>
+                        </div>
+                        <h3 class="fs-6 fw-bold">Blog Title Goes Here...</h3>
+                        <p class="text-muted fw-light fs-6">Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
+                        <button>
+                            <a href="#" class="btn-2">read more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section end -->
+    <!-- Newsletter section  -->
+    <section id="newsLatter">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center mt-5 mb-4">
+                <h3 class="titel-2">Newsletter</h3>
+            </div>
+            <!-- input newsLatter -->
+            <div class="latterForm col-xxl-7 col-lg-8  col-sm-12 mx-auto">
+                <form action="" class="d-flex">
+                    <input type="email" name="" id="">
+                    <input class="" type="submit" value="subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <section id="footer" class="bg-light mx-auto">
+        <div class="row py-5">
+            <div class="col-md-3">
+                <div class="box">
+                    <h3>our menu</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i> pizza</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> burger</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> chicken</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> pasta</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i> and more...</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+                    <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+                    <a href="#popular"> <i class="fas fa-arrow-right"></i> popular</a>
+                    <a href="#menu"> <i class="fas fa-arrow-right"></i> menu</a>
+                    <a href="#order"> <i class="fas fa-arrow-right"></i> order</a>
+                    <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box">
+                    <h3>opening hours</h3>
+                    <p>monday : 7:00am to 10:00pm</p>
+                    <p>tuesday : 7:00am to 10:00pm</p>
+                    <p>wednesday : 7:00am to 10:00pm</p>
+                    <p>friday : 7:00am to 10:00pm</p>
+                    <p>saturday and sunday closed</p>
+                </div>
+            </div>
+            <!-- footer socila section  -->
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin-in"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="row container-fluid py-4 border-top bg-light">
+       <div class="col-12 text-center">
+        <p class="credit m-0 fs-5 text-muted"> © 2022  All rights reserved! | <a href="#" class="fs-5">Shoeb Sifat</a> </p>
+       </div>
+    </footer>
+    <!-- footer section end -->
+</body>
+
+</html>
