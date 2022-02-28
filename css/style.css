@@ -1,6 +1,7 @@
 /* google fon import */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
 /* google fon import */
 /* root css */
 * {
@@ -18,13 +19,29 @@
     font-size: 16px;
 }
 
+/* custom scrool bar start */
+html::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+html::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #27ae60;
+    border-radius: 5rem;
+}
+
 /* default css start */
-.row{
+.row {
     gap: 24px 0px;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 *:hover {
     transition: 0.6s;
 }
@@ -66,6 +83,7 @@ header {
 img {
     max-width: 100%;
 }
+
 .titel {
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
@@ -77,6 +95,7 @@ img {
     padding-top: 0.5rem;
     color: #130f40;
 }
+
 /* default css end */
 /* nav satart  */
 header {
@@ -180,26 +199,31 @@ header nav .nav-toggler {
     background: #27ae60;
     color: #fff;
 }
+
 /* hero section stat  */
 .hero-p {
     font-size: 2rem;
     color: #27ae60;
 }
-.hero_img_box{
+
+.hero_img_box {
     position: relative;
 }
-.hero_up_img{
+
+.hero_up_img {
     position: absolute;
     top: 2%;
     left: 0%;
     transform: translate(1.5);
 }
+
 /* hero section end  */
 /* category  start*/
-#category{
+#category {
     position: relative;
     z-index: 10;
 }
+
 #category .row .col-lg-2 .box {
     border-radius: 6px;
     background: #f7f7f7;
@@ -227,11 +251,13 @@ header nav .nav-toggler {
 #category .row .col-lg-2 .box:hover img {
     transform: scale(1.2);
 }
+
 /* category end */
 /* about section start */
 #about {
     background: #f7f7f7;
 }
+
 #about .text .icon .content {
     padding: 1rem 2rem;
 }
@@ -241,11 +267,13 @@ header nav .nav-toggler {
     font-size: 1.7rem;
     color: #130f40;
 }
+
 /* about section  end */
 /* popular food section  start */
-#popularfood .row{
+#popularfood .row {
     gap: 24px 0px;
 }
+
 .card {
     cursor: pointer;
     background: #f7f7f7;
@@ -256,19 +284,24 @@ header nav .nav-toggler {
     flex-flow: column;
     align-items: center;
 }
+
 /* hover csss -------- */
-#popularfood .card:hover img{
+#popularfood .card:hover img {
     transform: rotate(360deg) scale(1.2);
 }
-#popularfood .card:hover{
+
+#popularfood .card:hover {
     background: #130f40;
 }
-#popularfood .card:hover h3{
+
+#popularfood .card:hover h3 {
     color: #fff;
 }
-#popularfood .card:hover h4{
+
+#popularfood .card:hover h4 {
     color: #fff;
 }
+
 /* hover csss -----end--- */
 .card a i {
     color: #666;
@@ -297,7 +330,8 @@ header nav .nav-toggler {
     /* text-align: center; */
 }
 
-.btn-2,.btn {
+.btn-2,
+.btn {
     font-size: 1rem;
     text-decoration: none;
     color: #fff;
@@ -311,6 +345,7 @@ header nav .nav-toggler {
     background: #130f40;
     color: #fff;
 }
+
 /* food section  end */
 /*full banner  section start  */
 
@@ -319,6 +354,7 @@ header nav .nav-toggler {
     background-size: cover;
     height: 45rem;
 }
+
 /*full banner cssss-- section end  */
 /*full banner cssss-- section end  */
 /*full banner cssss-- section end  */
@@ -335,18 +371,23 @@ header nav .nav-toggler {
 .box2 {
     background: #f8f7f2;
 }
-.box2 h4{
+
+.box2 h4 {
     color: #130f40 !important;
 }
+
 .box3 {
     background: #39251d;
 }
-.box-wraper h4{
+
+.box-wraper h4 {
     color: #fff;
 }
+
 .box-wraper:hover img {
     transform: scale(1.5);
 }
+
 /* Row banner-------- section end */
 /* Row banner-------- section end */
 /* Row banner-------- section end */
@@ -383,6 +424,7 @@ header nav .nav-toggler {
 #foodMenu .row .col-lg-4 .box:hover img {
     transform: rotate(360deg) scale(1.2);
 }
+
 /* food menu sectin end ** -----*/
 /* food menu sectin end ** -----*/
 /* food menu sectin end ** -----*/
@@ -405,7 +447,8 @@ header nav .nav-toggler {
     border-radius: .5rem;
 }
 
-#orderForm form .row input,textarea{
+#orderForm form .row input,
+textarea {
     padding: 1rem 1.2rem;
     width: 100%;
     border-radius: 0.5rem;
@@ -414,14 +457,17 @@ header nav .nav-toggler {
     margin-bottom: 1rem;
     color: #27ae60;
 }
-textarea{
+
+textarea {
     resize: none;
 }
-.map{
+
+.map {
     height: 17rem;
     width: 100%;
     border-radius: 0.5rem;
 }
+
 /* contact form css end --*/
 /* contact form css end --*/
 /* contact form css end --*/
@@ -429,14 +475,16 @@ textarea{
 /* blog section css start */
 /* blog section css start */
 /* blog section css start */
-#blog{}
-#blog .blog_wraper{
+#blog {}
+
+#blog .blog_wraper {
     position: relative;
     background: #f7f7f7;
     border-radius: .5rem;
     overflow: hidden;
 }
-#blog .blog_wraper .calendar{
+
+#blog .blog_wraper .calendar {
     z-index: 10;
     position: absolute;
     top: 4%;
@@ -446,49 +494,58 @@ textarea{
     font-size: .8rem;
     transition: 0.3s;
 }
-#blog .blog_wraper .calendar i{
+
+#blog .blog_wraper .calendar i {
     color: #27ae60;
 }
 
-#blog .blog_wraper .img_box{
+#blog .blog_wraper .img_box {
     height: 12rem;
     position: relative;
     overflow: hidden;
     width: 100%;
 }
 
-#blog .blog_wraper img{
+#blog .blog_wraper img {
     transition: 0.3s;
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
 }
+
 /* hover  */
 /* hover  */
-#blog .blog_wraper:hover .calendar{
+#blog .blog_wraper:hover .calendar {
     transform: translateX(20px);
 }
-#blog .blog_wraper:hover img{
+
+#blog .blog_wraper:hover img {
     transform: scale(1.1);
 }
-#blog .blog_wraper .blog_box{
+
+#blog .blog_wraper .blog_box {
     padding: 2rem 1.5rem;
     background: #f7f7f7;
 }
-#blog .blog_wraper .blog_box .tag{}
-#blog .blog_wraper .blog_box .tag a{
-    font-weight:300;
+
+#blog .blog_wraper .blog_box .tag {}
+
+#blog .blog_wraper .blog_box .tag a {
+    font-weight: 300;
     font-size: 0.8rem;
     text-decoration: none;
     color: #666;
 }
-#blog .blog_wraper .blog_box .tag a:hover{
+
+#blog .blog_wraper .blog_box .tag a:hover {
     color: #27ae60;
 }
-#blog .blog_wraper .blog_box .tag a i{
+
+#blog .blog_wraper .blog_box .tag a i {
     color: #27ae60;
 }
+
 /* blog section css end */
 /* blog section css end */
 /* blog section css end */
@@ -496,15 +553,17 @@ textarea{
 /* newsLatter newsLatter start*/
 /* newsLatter newsLatter start*/
 /* newsLatter newsLatter start*/
-#newsLatter{
+#newsLatter {
     background: #f7f7f7;
 }
-#newsLatter .row .latterForm form{
+
+#newsLatter .row .latterForm form {
     border-radius: .5rem;
     overflow: hidden;
 
 }
-#newsLatter .row .latterForm form input[type="email"]{
+
+#newsLatter .row .latterForm form input[type="email"] {
     height: 100%;
     width: 100%;
     padding: 1rem 1.2rem;
@@ -513,16 +572,19 @@ textarea{
     color: #27ae60;
     text-transform: none;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     cursor: pointer;
 }
-#newsLatter .row .latterForm form input[type="submit"]{
+
+#newsLatter .row .latterForm form input[type="submit"] {
     padding: 0 2rem;
     font-size: 1.6rem;
     color: #fff;
     background: #27ae60;
     cursor: pointer;
 }
+
 /* newsLatter newsLatter end*/
 /* newsLatter newsLatter end*/
 /* newsLatter newsLatter end*/
@@ -530,53 +592,63 @@ input[type="submit"]{
 /* footer section start */
 /* footer section start */
 /* footer section start */
-#footer .box{
+#footer .box {
     margin-bottom: 2rem;
     display: flex;
     flex-flow: column;
     gap: .8rem;
 }
-#footer a{
+
+#footer a {
     color: #666;
 }
+
 /* hover footer */
-#footer a:hover{
+#footer a:hover {
     color: #27ae60;
 }
-#footer a:hover i{
+
+#footer a:hover i {
     padding-right: 0.8rem;
 }
 
-#footer a i{
+#footer a i {
     color: #27ae60;
 }
-#footer .box p{
+
+#footer .box p {
     margin-bottom: 0;
     color: #666;
 }
+
 /* footer section share */
-#footer .share{
+#footer .share {
     display: flex;
     gap: 1rem;
     flex-flow: wrap;
 }
-#footer .share a{
+
+#footer .share a {
     color: #fff;
     background: #27ae60;
     padding: 0.5rem 0.6rem;
     font-size: 2rem;
     border-radius: 6px;
 }
-#footer .share a:first-child{
+
+#footer .share a:first-child {
     padding: 0.5rem 0.9rem;
 }
+
 /* hover  */
-#footer .share a:hover{
+#footer .share a:hover {
     background: #130f40;
 }
-footer a{
+
+footer a {
     color: #27ae60;
 }
+
 /* footer section end  */
 /* footer section end  */
 /* footer section end  */
@@ -586,9 +658,10 @@ footer a{
 /* media  responsive css*/
 /* media  responsive css*/
 @media(max-width:992px) {
-    *{
+    * {
         font-size: 12px;
     }
+
     header nav .nav-toggler {
         display: inline-block;
     }
@@ -637,6 +710,7 @@ footer a{
         padding: 0 5%;
     }
 }
+
 /* media  responsive css end*/
 /* media  responsive css end*/
 /* media  responsive css end*/
@@ -644,7 +718,7 @@ footer a{
 /* animation start css animation start*/
 /* animation start css animation start*/
 /* animation start css animation start*/
-.hero_emoji{
+.hero_emoji {
     display: inline-block;
     font-size: 2.5rem;
     animation: ghora;
@@ -652,19 +726,30 @@ footer a{
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
-@keyframes ghora{
-    100%{transform: rotate(360deg);}
+
+/* @keyframes ghora {
+    100% {
+        transform: rotate(360deg);
+    }
 }
-.hero_img_box img{
+
+.hero_img_box img {
     animation: pop;
     animation-duration: 6s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
-@keyframes pop{
-    0%{transform: scale(0.6);}
-    100%{transform: scale(1);}
-}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+} */
+
 /* animation ended css animation end */
 /* animation ended css animation end */
 /* animation ended css animation end */
