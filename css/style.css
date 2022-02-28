@@ -727,7 +727,7 @@ footer a {
     animation-direction: normal;
 }
 
-/* @keyframes ghora {
+@keyframes ghora {
     100% {
         transform: rotate(360deg);
     }
@@ -748,7 +748,7 @@ footer a {
     100% {
         transform: scale(1);
     }
-} */
+}
 
 /* animation ended css animation end */
 /* animation ended css animation end */
